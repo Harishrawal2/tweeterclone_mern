@@ -50,7 +50,7 @@ router.post('/login', async (req, res) => {
             },
         });
 
-        console.log(createdToken);
+        // console.log(createdToken);
         // TODO send emailToken to user's email
         // await sendEmailToken(email, emailToken);
         res.sendStatus(200);
